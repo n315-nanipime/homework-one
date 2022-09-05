@@ -1,0 +1,19 @@
+.contact-top {
+  min-height: 60%;
+  background-color: #9bc1ee;
+
+  .contact-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    p {
+      margin-top: 1%;
+      font-weight: bold;
+    }
+    img {
+      //margin-top: 3%;
+    }
+  }
+}

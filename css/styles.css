@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: red;
+}
+
+nav {
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  height: 100%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo img {
+  height: 80%;
+}
+nav .links {
+  margin-right: 20px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .links a {
+  text-decoration: none;
+  color: white;
+}
+
+.top {
+  min-height: 70%;
+  background-color: white;
+}
+.top p {
+  margin-top: 3%;
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.top h2 {
+  font-size: 30px;
+  margin-left: 10px;
+}
+.top .continents {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.top .continents img {
+  width: 15%;
+}
+.top .continents button {
+  background-color: #769abe;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  border-style: none;
+}
+
+.bottom {
+  min-height: 60%;
+  background-color: #769abe;
+}
+.bottom .bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+.bottom .bottom-header .header-left {
+  margin-left: 20px;
+}
+.bottom .bottom-header .header-left h1 {
+  color: white;
+}
+.bottom .bottom-header .header-right {
+  margin-right: 20px;
+  color: white;
+}
+.bottom .media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bottom .media .users {
+  height: 50%;
+  margin-top: 2%;
+}
+.bottom .media .users img {
+  height: 325px;
+}
+.bottom .media .users p {
+  color: white;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.about-top {
+  margin-top: 2%;
+  min-height: 85%;
+  background-color: white;
+}
+.about-top .about-title {
+  color: black;
+}
+.about-top img {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+.about-top .about-text {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.about-bottom {
+  min-height: 30%;
+  background-color: #dbc7db;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-bottom .about-bottom-header h1 {
+  text-align: center;
+  color: rgb(77, 77, 252);
+}
+.about-bottom .about-bottom-header .facebook,
+.about-bottom .about-bottom-header .instagram,
+.about-bottom .about-bottom-header .twitter {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 7%;
+}
+.about-bottom .about-bottom-header .facebook img,
+.about-bottom .about-bottom-header .instagram img,
+.about-bottom .about-bottom-header .twitter img {
+  height: 50px;
+  margin-right: 5px;
+}
+.about-bottom .about-bottom-header .facebook a,
+.about-bottom .about-bottom-header .instagram a,
+.about-bottom .about-bottom-header .twitter a {
+  font-size: 17px;
+}
+
+.destination-top {
+  min-height: 60%;
+  background-color: #48817a;
+}
+.destination-top .top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+.destination-top .top-header .header-left {
+  margin-left: 20px;
+}
+.destination-top .top-header .header-left h1 {
+  color: white;
+}
+.destination-top .top-header .header-right {
+  margin-right: 20px;
+  color: white;
+}
+.destination-top .media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.destination-top .media .countries {
+  height: 50%;
+  margin-top: 2%;
+}
+.destination-top .media .countries img {
+  max-height: 300px;
+}
+.destination-top .media .countries p {
+  color: white;
+  text-align: center;
+}
+
+.destination-bottom {
+  min-height: 60%;
+  background-color: #18305c;
+}
+.destination-bottom .bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+.destination-bottom .bottom-header .header-left {
+  margin-left: 20px;
+}
+.destination-bottom .bottom-header .header-left h1 {
+  color: white;
+}
+.destination-bottom .bottom-header .header-right {
+  margin-right: 20px;
+  color: white;
+}
+.destination-bottom .media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.destination-bottom .media .continents {
+  height: 50%;
+  margin-top: 2%;
+}
+.destination-bottom .media .continents img {
+  height: 325px;
+}
+.destination-bottom .media .continents p {
+  color: white;
+  text-align: center;
+}
+
+.contact-top {
+  min-height: 60%;
+  background-color: #9bc1ee;
+}
+.contact-top .contact-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.contact-top .contact-img p {
+  margin-top: 1%;
+  font-weight: bold;
+}
+.contact-bottom {
+  min-height: 40%;
+  background-color: #f0eff5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.contact-bottom h1 {
+  color: black;
+  margin-top: 1%;
+}
+
+/*# sourceMappingURL=styles.css.map */

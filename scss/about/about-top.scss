@@ -1,0 +1,21 @@
+.about-top {
+  margin-top: 2%;
+  min-height: 85%;
+  background-color: white;
+
+  .about-title {
+    color: black;
+  }
+
+  img {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+  }
+  .about-text {
+    margin-top: 2%;
+    text-align: center;
+  }
+}

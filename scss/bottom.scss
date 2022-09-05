@@ -1,0 +1,41 @@
+.bottom {
+  min-height: 60%;
+  background-color: #769abe;
+
+  .bottom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+
+    .header-left {
+      margin-left: 20px;
+      h1 {
+        color: white;
+      }
+    }
+
+    .header-right {
+      margin-right: 20px;
+      color: white;
+    }
+  }
+
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .users {
+      height: 50%;
+      margin-top: 2%;
+
+      img {
+        height: 325px;
+      }
+      p {
+        color: white;
+      }
+    }
+  }
+}
